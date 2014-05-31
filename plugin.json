@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-hearthis",
-	"name": "NodeBB HearThis Plugin",
-	"description": "NodeBB Plugin that allows users to embed HearThis sets inline in their posts.",
-	"url": "https://github.com/a5mith/nodebb-plugin-hearthis",
+	"id": "nodebb-plugin-mixcloud",
+	"name": "NodeBB MixCloud Plugin",
+	"description": "NodeBB Plugin that allows users to embed MixCloud sets inline in their posts.",
+	"url": "https://github.com/a5mith/nodebb-plugin-mixcloud",
 	"library": "./library.js",
 	"hooks": [
 		{ "hook": "filter:post.parse", "method": "parse", "callbacked": true }
