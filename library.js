@@ -6,7 +6,7 @@
 
 
     MixCloud.parse = function(postContent, callback) {
-        postContent = postContent.replace(/<a href="(?:http?:\/\/)?(?:www\.)?(?:mixcloud\.com)\/?(.+)">.+<\/a>/g, embed);
+        postContent = postContent.replace(/<a rel="nofollow" href="(?:http?:\/\/)?(?:www\.)?(?:mixcloud\.com)\/?(.+)">.+<\/a>/g, embed);
         callback(null, postContent);
     };
 
