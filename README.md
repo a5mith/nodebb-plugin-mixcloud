@@ -13,7 +13,10 @@ This NodeBB plugin allows users to embed MixCloud widgets inline in their posts.
     Profit!
 
 ## Changelog
-
+    0.0.4
+     - Use this version for NodeBB ^0.6.0
+    0.0.3
+     - Use this version for NodeBB ~0.5.x
     0.0.2
      - Now supports rel"nofollow" ( If running version lower than 0.5.2 of NodeBB, you don't need to update this, use 0.0.1 )
     0.0.1
