@@ -1,6 +1,9 @@
 {
   "name": "nodebb-plugin-mixcloud",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "nbbpm": {
+      "compatibility": "^0.5.0"
+  },
   "description": "NodeBB MixCloud Plugin",
   "main": "library.js",
   "scripts": {
@@ -27,6 +30,6 @@
   },
   "readme": "",
   "readmeFilename": "README.md",
-  "_id": "nodebb-plugin-mixcloud@0.0.2",
-  "_from": "nodebb-plugin-mixcloud@~0.0.2"
+  "_id": "nodebb-plugin-mixcloud@0.0.3",
+  "_from": "nodebb-plugin-mixcloud@~0.0.3"
 }
